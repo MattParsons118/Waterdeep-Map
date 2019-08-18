@@ -1,0 +1,30 @@
+html, body
+{
+    height: 100%
+}
+
+body
+{
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(64,32,0);
+}
+
+#info
+{
+    font-size: 32px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+#map
+{
+    cursor: move;
+    background-image: url(img/map-player.jpg);
+    background-size: cover;
+    width: 5042px;
+    height: 7562px;
+
+    position: fixed;
+}
