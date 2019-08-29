@@ -12,7 +12,11 @@ body
 
 #info
 {
-    font-size: 32px;
+    font-family: 'Alegreya';
+    font-size: 48px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+
     position: fixed;
     right: 20px;
     bottom: 20px;

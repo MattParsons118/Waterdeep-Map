@@ -1,0 +1,90 @@
+body
+{
+    min-width: 800px;
+    margin: 25px 50px 50px;
+
+    background-color: DarkSlateGray;
+
+    font-family: 'Alegreya';
+    font-size: 24px;
+    color: Whitesmoke;
+}
+
+h1, h2
+{
+  margin: 0px;
+}
+
+table, td, th
+{
+  border: 1px solid goldenrod;
+}
+
+td, th
+{
+    background-color: Black;
+}
+
+table
+{
+  width: 100%;
+}
+
+th
+{
+  padding: 20px;
+}
+
+td
+{
+  width: 10%;
+  position: relative;
+}
+
+td::after
+{
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+
+td .content
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+div.arrow
+{
+  font-size: 100px;
+}
+
+td .date
+{
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+td .symbols
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+td .info
+{
+  position: absolute;
+  bottom: 5px;
+  left: 5%;
+  width: 90%;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  font-size: 16px;
+}

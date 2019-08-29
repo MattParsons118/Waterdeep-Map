@@ -5,8 +5,8 @@ var zoomInterval;
 
 function initZoomControls()
 {
-    map.style.height = Math.floor(window.innerHeight / 100) * 100 + 'px';
-    map.style.width = mapWidth * (parseInt(map.style.height) / mapHeight) + 'px';
+    map.style.height = mapHeight / 10 + 'px';
+    map.style.width = mapWidth / 10 + 'px';
     repositionMap(0, 0);
 
     zoom = parseInt(map.style.width) / mapWidth;
